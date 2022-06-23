@@ -14,4 +14,3 @@ def balde(max_a,max_b,vol_a,vol_b,valor_esperado,vol_transf=0):
         return balde(max_a,max_b,max_a - vol_transf,vol_b,valor_esperado,vol_transf)
 
 
-print(balde(33,12,33,12,1))
